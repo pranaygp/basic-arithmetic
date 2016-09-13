@@ -4,7 +4,7 @@
   "description": "Basic aritmetic plugin",
   "main": "dist/artmtc.js",
   "scripts": {
-    "test": "flow check && jasmine-node spec",
+    "test": "flow check && istanbul cover node_modules/jasmine-node/bin/jasmine-node spec && codecov",
     "flow": "flow",
     "build": "gulp",
     "prepublish": "gulp"
@@ -19,6 +19,7 @@
     "gulp": "^3.9.1",
     "gulp-babel": "^6.1.2",
     "gulp-uglify": "^1.5.3",
+    "istanbul": "^0.4.5",
     "jasmine-node": "^1.14.5"
   }
 }
