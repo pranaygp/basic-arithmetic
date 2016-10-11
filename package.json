@@ -1,6 +1,6 @@
 {
   "name": "basic-arithmetic",
-  "version": "1.1.0",
+  "version": "1.1.1",
   "description": "Basic aritmetic plugin",
   "main": "dist/artmtc.js",
   "scripts": {
